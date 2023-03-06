@@ -18,10 +18,14 @@ html, body {
     background-color: gray;
     min-height: 100vh;
     font-family: var(--font1);
+    text-align: center;
 }
 
 header {
-    background-color: black;
+    background-color: rgb(11, 29, 7);
+    background-image:url('imagens/ultmo.jpg') ;
+    background-position: left;
+    background-attachment: fixed;
     color: white;
     text-align: center;
 }
@@ -50,24 +54,41 @@ a:hover {
 
 footer {
     background-color: black;
+    background-image: url('imagens/ultmo.jpg');
+    background-position: bottom;
+    background-attachment: fixed;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(239, 245, 240);
     color: black;
 }
 
 section.imagem {
     background-color: gray;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
+    background-attachment: fixed;
 }
-
+section#im1 {
+    background-image: url('imagens/ultmo.jpg');
+    background-position: center;
+   
+   
+}
+section#im2 {
+    background-image: url('imagens/ultmo.jpg');
+    background-position: right ;
+   
+}
 section.imagem > p {
-   max-width: 400px;
-    background-color: black;
+
+    background-color: rgba(0, 0, 0, 0.342);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
 }
 
 section {
