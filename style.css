@@ -72,16 +72,15 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
     background-attachment: fixed;
+    background-image: url('imagens/ultmo.jpg');
 }
 section#im1 {
-    background-image: url('imagens/ultmo.jpg');
-    background-position: center;
+
    
    
 }
 section#im2 {
-    background-image: url('imagens/ultmo.jpg');
-    background-position: right ;
+    
    
 }
 section.imagem > p {
